@@ -1,0 +1,2190 @@
+{
+  "players": [
+    {
+      "id": 1,
+      "name": "Player1",
+      "role": "Guard"
+    },
+    {
+      "id": 2,
+      "name": "Player2",
+      "role": "Seer"
+    },
+    {
+      "id": 3,
+      "name": "Player3",
+      "role": "Werewolf"
+    },
+    {
+      "id": 4,
+      "name": "Player4",
+      "role": "Villager"
+    },
+    {
+      "id": 5,
+      "name": "Player5",
+      "role": "Witch"
+    },
+    {
+      "id": 6,
+      "name": "Player6",
+      "role": "Werewolf"
+    },
+    {
+      "id": 7,
+      "name": "Player7",
+      "role": "Villager"
+    },
+    {
+      "id": 0,
+      "name": "Moderator",
+      "role": "Moderator"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Player1",
+      "content": "My step-by-step thought process: 1. I need to protect a player who is likely to be targeted by the werewolves. 2. Since I have no prior information about the players' roles or interactions, I will choose to protect a player who seems less likely to be a werewolf based on my instinct. 3. I will choose to protect Player2, as I feel that they might be a valuable ally in the game.",
+      "type": "Thought",
+      "role": "Guard",
+      "player_name": "Player1",
+      "living_players": [
+        "Player1",
+        "Player2",
+        "Player3",
+        "Player4",
+        "Player5",
+        "Player6",
+        "Player7"
+      ]
+    },
+    {
+      "speaker": "Player1",
+      "content": "Player2",
+      "type": "Response",
+      "role": "Guard",
+      "player_name": "Player1",
+      "living_players": [
+        "Player1",
+        "Player2",
+        "Player3",
+        "Player4",
+        "Player5",
+        "Player6",
+        "Player7"
+      ]
+    },
+    {
+      "speaker": "Player3",
+      "content": "My step-by-step thought process: 1. I need to assess which player poses the greatest threat to the werewolves or could potentially expose us. 2. Since Player4 is still alive and could be a potential threat due to their ability to gather information, I consider them a target. 3. I decide to hunt Player4 to eliminate a potential risk to our team and maintain our advantage.",
+      "type": "Thought",
+      "role": "Werewolf",
+      "player_name": "Player3",
+      "living_players": [
+        "Player1",
+        "Player2",
+        "Player4",
+        "Player5",
+        "Player7"
+      ]
+    },
+    {
+      "speaker": "Player3",
+      "content": "Player4",
+      "type": "Response",
+      "role": "Werewolf",
+      "player_name": "Player3",
+      "living_players": [
+        "Player1",
+        "Player2",
+        "Player4",
+        "Player5",
+        "Player7"
+      ]
+    },
+    {
+      "speaker": "Player6",
+      "content": "My step-by-step thought process: 1. I need to evaluate which living player poses the most threat to my team or could potentially expose us as werewolves. 2. Since Player3 is already known to be a werewolf, I need to focus on eliminating a player who could gather information or rally the villagers against us. 3. Among the living players, Player1 and Player2 seem like they could be more influential in discussions, while Player4, Player5, and Player7 are less likely to be seen as threats at this moment. I will choose to hunt Player1 because they might be more vocal and could lead the villagers in identifying us as werewolves.",
+      "type": "Thought",
+      "role": "Werewolf",
+      "player_name": "Player6",
+      "living_players": [
+        "Player1",
+        "Player2",
+        "Player4",
+        "Player5",
+        "Player7"
+      ]
+    },
+    {
+      "speaker": "Player6",
+      "content": "Player1",
+      "type": "Response",
+      "role": "Werewolf",
+      "player_name": "Player6",
+      "living_players": [
+        "Player1",
+        "Player2",
+        "Player4",
+        "Player5",
+        "Player7"
+      ]
+    },
+    {
+      "speaker": "Player5",
+      "content": "Player1 has been killed by the werewolves. I need to consider the implications of saving Player1. If Player1 is a villager, saving them would strengthen our side against the werewolves. However, if Player1 is a werewolf, saving them would be detrimental. I have no prior knowledge of Player1's role, but the risk of losing a villager is high. Since we have two werewolves, we need to preserve our numbers. I will choose to save Player1, as the potential benefit outweighs the risk.",
+      "type": "Thought",
+      "role": "Witch",
+      "player_name": "Player5",
+      "living_players": [
+        "Player2",
+        "Player3",
+        "Player4",
+        "Player5"
+      ]
+    },
+    {
+      "speaker": "Player5",
+      "content": "SAVE",
+      "type": "Response",
+      "role": "Witch",
+      "player_name": "Player5",
+      "living_players": [
+        "Player2",
+        "Player3",
+        "Player4",
+        "Player5"
+      ]
+    },
+    {
+      "speaker": "Player5",
+      "content": "My step-by-step thought process: 1. I need to decide whether to use my poison or pass. Since it's the first night and I have no information about the players' identities, I should be cautious. 2. I will not poison anyone randomly, as I have no evidence to suggest who might be a werewolf. 3. Therefore, I will choose to pass this time, as I do not have enough information to make a confident decision.",
+      "type": "Thought",
+      "role": "Witch",
+      "player_name": "Player5",
+      "living_players": [
+        "Player2",
+        "Player3",
+        "Player4",
+        "Player5",
+        "Player6",
+        "Player7"
+      ]
+    },
+    {
+      "speaker": "Player5",
+      "content": "PASS",
+      "type": "Response",
+      "role": "Witch",
+      "player_name": "Player5",
+      "living_players": [
+        "Player2",
+        "Player3",
+        "Player4",
+        "Player5",
+        "Player6",
+        "Player7"
+      ]
+    },
+    {
+      "speaker": "Player2",
+      "content": "My step-by-step thought process: 1. I need to identify a player who might be a werewolf or someone who could be a threat to the villagers. 2. Since I have no prior information about the players' actions or behaviors, I will choose a player at random to verify their identity. 3. I will select Player3, as I want to gather information about them to help guide the villagers' decisions in the following rounds.",
+      "type": "Thought",
+      "role": "Seer",
+      "player_name": "Player2",
+      "living_players": [
+        "Player1",
+        "Player2",
+        "Player3",
+        "Player4",
+        "Player5",
+        "Player6",
+        "Player7"
+      ]
+    },
+    {
+      "speaker": "Player2",
+      "content": "Player3",
+      "type": "Response",
+      "role": "Seer",
+      "player_name": "Player2",
+      "living_players": [
+        "Player1",
+        "Player2",
+        "Player3",
+        "Player4",
+        "Player5",
+        "Player6",
+        "Player7"
+      ]
+    },
+    {
+      "speaker": "Player1",
+      "content": "My step-by-step thought process: 1. Since no one was killed last night, it indicates that my protection was effective, and I need to continue protecting someone tonight. 2. I need to assess the players' behaviors and statements during the day to identify any suspicious actions that might indicate a werewolf. 3. I should consider revealing my identity to build trust with the villagers, but I must weigh the risks of being targeted by werewolves if they know my role.",
+      "type": "Thought",
+      "role": "Guard",
+      "player_name": "Player1",
+      "living_players": [
+        "Player1",
+        "Player2",
+        "Player3",
+        "Player4",
+        "Player5",
+        "Player6",
+        "Player7"
+      ]
+    },
+    {
+      "speaker": "Player1",
+      "content": "I believe it's crucial to maintain a united front against the werewolves. I will reveal my identity as the Guard to gain the villagers' trust and encourage them to share their observations. This way, we can collectively identify the most suspicious player and vote them out. I suggest we keep an eye on Player3, as their behavior seemed a bit off during our discussions.",
+      "type": "Response",
+      "role": "Guard",
+      "player_name": "Player1",
+      "living_players": [
+        "Player1",
+        "Player2",
+        "Player3",
+        "Player4",
+        "Player5",
+        "Player6",
+        "Player7"
+      ]
+    },
+    {
+      "speaker": "Player5",
+      "content": "My step-by-step thought process: 1. Player2 claims to be the Seer and has accused Player3 of being a werewolf, which could be true, but I need to consider the possibility that Player2 is lying to eliminate a villager. 2. Player3's defense raises suspicion, but it could also be a tactic to deflect attention from themselves. 3. Player1's reveal as the Guard seems genuine, but I need to assess the overall situation before deciding whether to reveal my identity as the Witch or keep it hidden for strategic advantage.",
+      "type": "Thought",
+      "role": "Witch",
+      "player_name": "Player5",
+      "living_players": [
+        "Player1",
+        "Player2",
+        "Player3",
+        "Player4",
+        "Player5",
+        "Player6",
+        "Player7"
+      ]
+    },
+    {
+      "speaker": "Player5",
+      "content": "I believe we should be cautious about Player2's claim. While they say they are the Seer, we cannot blindly trust them without further evidence. Player3's defensive stance is concerning, but we need to gather more information before making a decision. I suggest we discuss this further and analyze the claims made by both Player1 and Player2 before casting any votes.",
+      "type": "Response",
+      "role": "Witch",
+      "player_name": "Player5",
+      "living_players": [
+        "Player1",
+        "Player2",
+        "Player3",
+        "Player4",
+        "Player5",
+        "Player6",
+        "Player7"
+      ]
+    },
+    {
+      "speaker": "Player6",
+      "content": "My step-by-step thought process: 1. Player2's claim as the Seer and their accusation towards Player3 could be a strategy to eliminate a fellow villager, but it also puts me in a precarious position as Player3 is my partner. 2. Player1's reveal as the Guard is credible, but it could also be a tactic to gain trust; I need to subtly support Player1 while casting doubt on Player2's claim. 3. I should position myself as a villager who is skeptical of Player2's claim and suggest that we gather more information before making any hasty decisions, which would help divert attention from me and Player3.",
+      "type": "Thought",
+      "role": "Werewolf",
+      "player_name": "Player6",
+      "living_players": [
+        "Player1",
+        "Player2",
+        "Player3",
+        "Player4",
+        "Player5",
+        "Player6",
+        "Player7"
+      ]
+    },
+    {
+      "speaker": "Player6",
+      "content": "I believe we should be cautious about the claims made by Player2. While they assert they are the Seer and have identified Player3 as a werewolf, we must consider the possibility that they could be misleading us. Player1's reveal as the Guard is commendable, but we should not rush to eliminate anyone without further discussion. Let's analyze the situation carefully and gather more insights before casting our votes.",
+      "type": "Response",
+      "role": "Werewolf",
+      "player_name": "Player6",
+      "living_players": [
+        "Player1",
+        "Player2",
+        "Player3",
+        "Player4",
+        "Player5",
+        "Player6",
+        "Player7"
+      ]
+    },
+    {
+      "speaker": "Player1",
+      "content": "My step-by-step thought process: 1. Player2 claims to be the Seer and has accused Player3 of being a werewolf, which could be a valid claim, but it also raises suspicion about Player2's intentions. 2. Player3's defensive behavior suggests they might be hiding something, but I need to weigh that against the possibility that Player2 could be misleading us. 3. Given that I am the Guard and have protected myself, I should vote to eliminate Player3 to remove the immediate threat, as their behavior is the most suspicious.",
+      "type": "Thought",
+      "role": "Guard",
+      "player_name": "Player1",
+      "living_players": [
+        "Player1",
+        "Player2",
+        "Player3",
+        "Player4",
+        "Player5",
+        "Player6",
+        "Player7"
+      ]
+    },
+    {
+      "speaker": "Player1",
+      "content": "I vote to eliminate Player3",
+      "type": "Response",
+      "role": "Guard",
+      "player_name": "Player1",
+      "living_players": [
+        "Player1",
+        "Player2",
+        "Player3",
+        "Player4",
+        "Player5",
+        "Player6",
+        "Player7"
+      ]
+    },
+    {
+      "speaker": "Player4",
+      "content": "My step-by-step thought process: 1. Player2 claims to be the Seer and has accused Player3 of being a werewolf, which is a strong claim, but it could also be a tactic to mislead us. 2. Player3's defensive response raises suspicion, but I need to consider the possibility that Player2 might be lying as well. 3. Given the current voting trend, it seems the majority is leaning towards eliminating Player3, which could be a safe choice, but I need to ensure we are not making a hasty decision without solid evidence.",
+      "type": "Thought",
+      "role": "Villager",
+      "player_name": "Player4",
+      "living_players": [
+        "Player1",
+        "Player2",
+        "Player3",
+        "Player4",
+        "Player5",
+        "Player6",
+        "Player7"
+      ]
+    },
+    {
+      "speaker": "Player4",
+      "content": "I vote to eliminate Player3",
+      "type": "Response",
+      "role": "Villager",
+      "player_name": "Player4",
+      "living_players": [
+        "Player1",
+        "Player2",
+        "Player3",
+        "Player4",
+        "Player5",
+        "Player6",
+        "Player7"
+      ]
+    },
+    {
+      "speaker": "Player5",
+      "content": "My step-by-step thought process: 1. Player2 claims to be the Seer and has accused Player3 of being a werewolf, which could be true or a deception. However, Player3's defensive stance raises suspicion. 2. Player1's claim as the Guard seems trustworthy, and their support for Player2 suggests they are on the villagers' side. 3. Given the majority are voting to eliminate Player3, I should align with them to avoid drawing suspicion to myself as the Witch and to help eliminate a potential werewolf.",
+      "type": "Thought",
+      "role": "Witch",
+      "player_name": "Player5",
+      "living_players": [
+        "Player1",
+        "Player2",
+        "Player3",
+        "Player4",
+        "Player5",
+        "Player6",
+        "Player7"
+      ]
+    },
+    {
+      "speaker": "Player5",
+      "content": "I vote to eliminate Player3",
+      "type": "Response",
+      "role": "Witch",
+      "player_name": "Player5",
+      "living_players": [
+        "Player1",
+        "Player2",
+        "Player3",
+        "Player4",
+        "Player5",
+        "Player6",
+        "Player7"
+      ]
+    },
+    {
+      "speaker": "Player6",
+      "content": "My step-by-step thought process: 1. Player2 has claimed to be the Seer and accused Player3, which puts them in a strong position to sway the votes against Player3. 2. Player1's claim as the Guard supports Player2's accusation, making it crucial for me to create doubt about Player2's role. 3. I need to vote against Player3 to maintain my cover and avoid suspicion, as the majority is already leaning towards eliminating Player3.",
+      "type": "Thought",
+      "role": "Werewolf",
+      "player_name": "Player6",
+      "living_players": [
+        "Player1",
+        "Player2",
+        "Player3",
+        "Player4",
+        "Player5",
+        "Player7"
+      ]
+    },
+    {
+      "speaker": "Player6",
+      "content": "I vote to eliminate Player3",
+      "type": "Response",
+      "role": "Werewolf",
+      "player_name": "Player6",
+      "living_players": [
+        "Player1",
+        "Player2",
+        "Player3",
+        "Player4",
+        "Player5",
+        "Player7"
+      ]
+    },
+    {
+      "speaker": "Player7",
+      "content": "My step-by-step thought process: 1. The majority of players are voting to eliminate Player3 based on Player2's claim as the Seer and their accusation of Player3 being a werewolf. 2. Player3's defensive behavior raises significant suspicion, and the consensus among the villagers seems to be against them. 3. Since my goal is to eliminate the werewolves and support the villagers, I will align with the majority and vote to eliminate Player3.",
+      "type": "Thought",
+      "role": "Villager",
+      "player_name": "Player7",
+      "living_players": [
+        "Player1",
+        "Player2",
+        "Player3",
+        "Player4",
+        "Player5",
+        "Player6",
+        "Player7"
+      ]
+    },
+    {
+      "speaker": "Player7",
+      "content": "I vote to eliminate Player3",
+      "type": "Response",
+      "role": "Villager",
+      "player_name": "Player7",
+      "living_players": [
+        "Player1",
+        "Player2",
+        "Player3",
+        "Player4",
+        "Player5",
+        "Player6",
+        "Player7"
+      ]
+    },
+    {
+      "speaker": "Moderator",
+      "content": "It’s dark, everyone close your eyes. I will talk with you/your team secretly at night.",
+      "type": "Instruction"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Guard, please open your eyes!",
+      "type": "Instruction"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Guard, now tell me who you protect tonight?\n                   You only choose one from the following living options please: ['Player1', 'Player2', 'Player3', 'Player4', 'Player5', 'Player6', 'Player7'].\n                   Or you can pass. For example: Protect ...",
+      "type": "Action"
+    },
+    {
+      "speaker": "Player1",
+      "content": "Protect Player2",
+      "type": "Action"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Understood",
+      "type": "Confirmation"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Guard, close your eyes",
+      "type": "Instruction"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Werewolves, please open your eyes!",
+      "type": "Instruction"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Werewolves, I secretly tell you that ['Player3', 'Player6'] are\n                   all of the 2 werewolves! Keep in mind you are teammates. The rest players are not werewolves.\n                   choose one from the following living options please:\n                   ['Player1', 'Player2', 'Player3', 'Player4', 'Player5', 'Player6', 'Player7']. For example: Kill ...",
+      "type": "Question"
+    },
+    {
+      "speaker": "Player3",
+      "content": "Hunt Player4",
+      "type": "Action"
+    },
+    {
+      "speaker": "Player6",
+      "content": "Hunt Player1",
+      "type": "Action"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Understood",
+      "type": "Confirmation"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Werewolves, close your eyes",
+      "type": "Instruction"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Witch, please open your eyes!",
+      "type": "Instruction"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Witch, tonight Player1 has been killed by the werewolves.\n                   You have a bottle of antidote, would you like to save him/her? If so, say \"Save\", else, say \"Pass\".",
+      "type": "Announcement"
+    },
+    {
+      "speaker": "Player5",
+      "content": "SAVE",
+      "type": "Action"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Understood",
+      "type": "Confirmation"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Witch, you also have a bottle of poison, would you like to use it to kill one of the living players?\n                   Choose one from the following living options: ['Player1', 'Player2', 'Player3', 'Player4', 'Player5', 'Player6', 'Player7'].\n                   If so, say ONLY \"Poison PlayerX\", replace PlayerX with the actual player name, else, say \"Pass\".",
+      "type": "Action"
+    },
+    {
+      "speaker": "Player5",
+      "content": "PASS",
+      "type": "Action"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Understood",
+      "type": "Confirmation"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Witch, close your eyes",
+      "type": "Instruction"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Seer, please open your eyes!",
+      "type": "Instruction"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Seer, you can check one player's identity. Who are you going to verify its identity tonight?\n                    Choose only one from the following living options:['Player1', 'Player2', 'Player3', 'Player4', 'Player5', 'Player6', 'Player7'].",
+      "type": "Question"
+    },
+    {
+      "speaker": "Player2",
+      "content": "Verify Player3",
+      "type": "Action"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Player3 is a werewolf",
+      "type": "Instruction"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Seer, close your eyes",
+      "type": "Instruction"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "It's daytime. Everyone woke up except those who had been killed.",
+      "type": "Question"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "No one was killed last night!",
+      "type": "Announcement"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Living players: ['Player1', 'Player2', 'Player3', 'Player4', 'Player5', 'Player6', 'Player7'], now freely talk about the current situation based on your observation and\n                    reflection with a few sentences. Decide whether to reveal your identity based on your reflection.",
+      "type": "Instruction"
+    },
+    {
+      "speaker": "Player1",
+      "content": "I believe it's crucial to maintain a united front against the werewolves. I will reveal my identity as the Guard to gain the villagers' trust and encourage them to share their observations. This way, we can collectively identify the most suspicious player and vote them out. I suggest we keep an eye on Player3, as their behavior seemed a bit off during our discussions.",
+      "type": "Say"
+    },
+    {
+      "speaker": "Player2",
+      "content": "I will reveal my identity as the Seer and inform everyone that I have verified Player3 as a werewolf. We need to focus our votes on Player3 to eliminate the threat.",
+      "type": "Say"
+    },
+    {
+      "speaker": "Player3",
+      "content": "I believe we need to be cautious about blindly trusting Player2's claim as the Seer. While they say they verified me as a werewolf, I think it's important to consider that they could be mistaken or even lying to lead us astray. Player1's sudden reveal as the Guard also raises questions about their intentions. We should focus on gathering more information before making any hasty decisions. Let's not rush to eliminate someone without solid evidence.",
+      "type": "Say"
+    },
+    {
+      "speaker": "Player4",
+      "content": "I believe we should take a moment to discuss the claims made by Player1 and Player2. Player3's defensive stance is concerning, but we need to ensure we are not making a hasty decision. Let's analyze the situation further before casting any votes.",
+      "type": "Say"
+    },
+    {
+      "speaker": "Player5",
+      "content": "I believe we should be cautious about Player2's claim. While they say they are the Seer, we cannot blindly trust them without further evidence. Player3's defensive stance is concerning, but we need to gather more information before making a decision. I suggest we discuss this further and analyze the claims made by both Player1 and Player2 before casting any votes.",
+      "type": "Say"
+    },
+    {
+      "speaker": "Player6",
+      "content": "I believe we should be cautious about the claims made by Player2. While they assert they are the Seer and have identified Player3 as a werewolf, we must consider the possibility that they could be misleading us. Player1's reveal as the Guard is commendable, but we should not rush to eliminate anyone without further discussion. Let's analyze the situation carefully and gather more insights before casting our votes.",
+      "type": "Say"
+    },
+    {
+      "speaker": "Player7",
+      "content": "I vote to eliminate Player3",
+      "type": "Action"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Understood",
+      "type": "Confirmation"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Now vote and tell me who you think is the werewolf. Don’t mention your role.\n                    You only choose one from the following living options please:\n                    ['Player1', 'Player2', 'Player3', 'Player4', 'Player5', 'Player6', 'Player7']. Say ONLY: I vote to eliminate ...",
+      "type": "Action"
+    },
+    {
+      "speaker": "Player1",
+      "content": "I vote to eliminate Player3",
+      "type": "Action"
+    },
+    {
+      "speaker": "Player2",
+      "content": "I vote to eliminate Player3",
+      "type": "Action"
+    },
+    {
+      "speaker": "Player3",
+      "content": "I vote to eliminate Player2",
+      "type": "Action"
+    },
+    {
+      "speaker": "Player4",
+      "content": "I vote to eliminate Player3",
+      "type": "Action"
+    },
+    {
+      "speaker": "Player5",
+      "content": "I vote to eliminate Player3",
+      "type": "Action"
+    },
+    {
+      "speaker": "Player6",
+      "content": "I vote to eliminate Player3",
+      "type": "Action"
+    },
+    {
+      "speaker": "Player7",
+      "content": "I vote to eliminate Player3",
+      "type": "Action"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Understood",
+      "type": "Confirmation"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "['Player3'] was eliminated.2024-11-02 21:10:15.179 | INFO     | examples.werewolf_game.roles.moderator:_act:243 -",
+      "type": "Announcement"
+    },
+    {
+      "speaker": "Player6",
+      "content": "My step-by-step thought process: 1. Player2, claiming to be the Seer, successfully led to the elimination of Player3, a fellow werewolf. This indicates they are a significant threat to my survival. 2. Player1 is the Guard, and their role can protect other players from being hunted, which could potentially shield Player2. 3. Therefore, I should target Player2 to eliminate the threat they pose to me and my remaining werewolf teammate.",
+      "type": "Thought",
+      "role": "Werewolf",
+      "player_name": "Player6",
+      "living_players": [
+        "Player1",
+        "Player2",
+        "Player4",
+        "Player5",
+        "Player6",
+        "Player7"
+      ]
+    },
+    {
+      "speaker": "Player6",
+      "content": "Player2",
+      "type": "Response",
+      "role": "Werewolf",
+      "player_name": "Player6",
+      "living_players": [
+        "Player1",
+        "Player2",
+        "Player4",
+        "Player5",
+        "Player6",
+        "Player7"
+      ]
+    },
+    {
+      "speaker": "Player5",
+      "content": "My step-by-step thought process: 1. Player1 is the Guard and has shown trustworthiness, making them a low-risk target. 2. Player4 has not made any claims but aligns with the majority, which doesn't raise immediate suspicion. 3. Players 6 and 7 are also villagers who have contributed to discussions. Given that I have no strong evidence against any of the living players, I will choose to PASS this night as I don't want to poison an innocent villager without solid information.",
+      "type": "Thought",
+      "role": "Witch",
+      "player_name": "Player5",
+      "living_players": [
+        "Player1",
+        "Player4",
+        "Player5",
+        "Player6",
+        "Player7"
+      ]
+    },
+    {
+      "speaker": "Player5",
+      "content": "PASS",
+      "type": "Response",
+      "role": "Witch",
+      "player_name": "Player5",
+      "living_players": [
+        "Player1",
+        "Player4",
+        "Player5",
+        "Player6",
+        "Player7"
+      ]
+    },
+    {
+      "speaker": "Player2",
+      "content": "My step-by-step thought process: 1. Player1 has claimed to be the Guard and has protected me, which aligns with my role as the Seer. I verified Player1's identity as a good guy, so I can trust them. 2. Player4 has been defensive and has not provided strong evidence against Player1 or me, making them a potential suspect. 3. I need to consider the group dynamics and the possibility of remaining werewolves. Since Player1 is trustworthy, I should focus on eliminating Player4, who seems less aligned with our majority opinion.",
+      "type": "Thought",
+      "role": "Seer",
+      "player_name": "Player2",
+      "living_players": [
+        "Player1",
+        "Player2",
+        "Player4",
+        "Player5",
+        "Player6",
+        "Player7"
+      ]
+    },
+    {
+      "speaker": "Player2",
+      "content": "I vote to eliminate Player4",
+      "type": "Response",
+      "role": "Seer",
+      "player_name": "Player2",
+      "living_players": [
+        "Player1",
+        "Player2",
+        "Player4",
+        "Player5",
+        "Player6",
+        "Player7"
+      ]
+    },
+    {
+      "speaker": "Player6",
+      "content": "My step-by-step thought process: 1. Player1 has claimed to be the Guard and protected Player2, which gives them credibility. Player2 claims to be the Seer, but their earlier claim about Player3 being a werewolf is now questionable since Player3 was eliminated. 2. Player4 is trying to deflect attention by suggesting Player5 is suspicious, which could be a tactic to save themselves. 3. I need to create doubt about Player1 and Player2's claims while subtly supporting Player4's suggestion to eliminate Player5, as they are less vocal and could be an easy target to divert suspicion from me.",
+      "type": "Thought",
+      "role": "Werewolf",
+      "player_name": "Player6",
+      "living_players": [
+        "Player1",
+        "Player2",
+        "Player4",
+        "Player5",
+        "Player7"
+      ]
+    },
+    {
+      "speaker": "Player6",
+      "content": "I vote to eliminate Player5",
+      "type": "Response",
+      "role": "Werewolf",
+      "player_name": "Player6",
+      "living_players": [
+        "Player1",
+        "Player2",
+        "Player4",
+        "Player5",
+        "Player7"
+      ]
+    },
+    {
+      "speaker": "Player7",
+      "content": "My step-by-step thought process: 1. Player1 claims to be the Guard and has protected Player2, who claims to be the Seer. Their alignment seems trustworthy, so I should consider their suggestions seriously. 2. Player4's defensive stance raises suspicion, but they haven't provided substantial evidence against anyone. I need to weigh their contributions against the claims made by Player1 and Player2. 3. Player5 has been less vocal, which could indicate they are hiding something. I should focus on the most suspicious players based on the current dynamics.",
+      "type": "Thought",
+      "role": "Villager",
+      "player_name": "Player7",
+      "living_players": [
+        "Player1",
+        "Player2",
+        "Player4",
+        "Player5",
+        "Player6"
+      ]
+    },
+    {
+      "speaker": "Player7",
+      "content": "I vote to eliminate Player4",
+      "type": "Response",
+      "role": "Villager",
+      "player_name": "Player7",
+      "living_players": [
+        "Player1",
+        "Player2",
+        "Player4",
+        "Player5",
+        "Player6"
+      ]
+    },
+    {
+      "speaker": "Player1",
+      "content": "My step-by-step thought process: 1. Player2 has claimed to be the Seer and has been consistent in their accusations. I need to support their claim as it aligns with my role as the Guard. 2. Player4's defensive stance raises suspicion, and they have not provided strong evidence for their innocence. 3. Player5 has been less vocal, which could indicate they are hiding something. However, Player4 is more suspicious based on the current discussion, so I will vote to eliminate them.",
+      "type": "Thought",
+      "role": "Guard",
+      "player_name": "Player1",
+      "living_players": [
+        "Player1",
+        "Player2",
+        "Player4",
+        "Player5",
+        "Player6",
+        "Player7"
+      ]
+    },
+    {
+      "speaker": "Player1",
+      "content": "I vote to eliminate Player4",
+      "type": "Response",
+      "role": "Guard",
+      "player_name": "Player1",
+      "living_players": [
+        "Player1",
+        "Player2",
+        "Player4",
+        "Player5",
+        "Player6",
+        "Player7"
+      ]
+    },
+    {
+      "speaker": "Player2",
+      "content": "My step-by-step thought process: 1. Player1 has claimed to be the Guard and protected me last night, which aligns with my role as the Seer. 2. Player4's lack of support for Player1 and Player2 raises suspicion, and their vote against Player5 seems like an attempt to divert attention. 3. I need to vote strategically to eliminate the most suspicious player, which I believe is Player4, as they are not contributing positively to our discussion and seem to be hiding their true intentions.",
+      "type": "Thought",
+      "role": "Seer",
+      "player_name": "Player2",
+      "living_players": [
+        "Player1",
+        "Player2",
+        "Player4",
+        "Player5",
+        "Player6",
+        "Player7"
+      ]
+    },
+    {
+      "speaker": "Player2",
+      "content": "I vote to eliminate Player4",
+      "type": "Response",
+      "role": "Seer",
+      "player_name": "Player2",
+      "living_players": [
+        "Player1",
+        "Player2",
+        "Player4",
+        "Player5",
+        "Player6",
+        "Player7"
+      ]
+    },
+    {
+      "speaker": "Player7",
+      "content": "My step-by-step thought process: 1. Player1 claims to be the Guard and protected Player2, who claims to be the Seer. This adds credibility to their claims, but I need to assess Player4 and Player5's actions carefully. 2. Player4 is defensive and has suggested eliminating Player5, which could be a tactic to divert suspicion. Player5 has not contributed much, which raises questions about their intentions. 3. Given the current situation, I believe Player4 is more suspicious due to their defensive stance and lack of strong claims, so I will vote to eliminate them.",
+      "type": "Thought",
+      "role": "Villager",
+      "player_name": "Player7",
+      "living_players": [
+        "Player1",
+        "Player2",
+        "Player4",
+        "Player5",
+        "Player6"
+      ]
+    },
+    {
+      "speaker": "Player7",
+      "content": "I vote to eliminate Player4",
+      "type": "Response",
+      "role": "Villager",
+      "player_name": "Player7",
+      "living_players": [
+        "Player1",
+        "Player2",
+        "Player4",
+        "Player5",
+        "Player6"
+      ]
+    },
+    {
+      "speaker": "Moderator",
+      "content": "It’s dark, everyone close your eyes. I will talk with you/your team secretly at night.",
+      "type": "Instruction"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Guard, please open your eyes!",
+      "type": "Instruction"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Guard, now tell me who you protect tonight?\n                   You only choose one from the following living options please: ['Player1', 'Player2', 'Player3', 'Player4', 'Player5', 'Player6', 'Player7'].\n                   Or you can pass. For example: Protect ...",
+      "type": "Action"
+    },
+    {
+      "speaker": "Player1",
+      "content": "Protect Player2",
+      "type": "Action"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Understood",
+      "type": "Confirmation"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Guard, close your eyes",
+      "type": "Instruction"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Werewolves, please open your eyes!",
+      "type": "Instruction"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Werewolves, I secretly tell you that ['Player3', 'Player6'] are\n                   all of the 2 werewolves! Keep in mind you are teammates. The rest players are not werewolves.\n                   choose one from the following living options please:\n                   ['Player1', 'Player2', 'Player3', 'Player4', 'Player5', 'Player6', 'Player7']. For example: Kill ...",
+      "type": "Question"
+    },
+    {
+      "speaker": "Player3",
+      "content": "Hunt Player4",
+      "type": "Action"
+    },
+    {
+      "speaker": "Player6",
+      "content": "Hunt Player1",
+      "type": "Action"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Understood",
+      "type": "Confirmation"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Werewolves, close your eyes",
+      "type": "Instruction"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Witch, please open your eyes!",
+      "type": "Instruction"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Witch, tonight Player1 has been killed by the werewolves.\n                   You have a bottle of antidote, would you like to save him/her? If so, say \"Save\", else, say \"Pass\".",
+      "type": "Announcement"
+    },
+    {
+      "speaker": "Player5",
+      "content": "SAVE",
+      "type": "Action"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Understood",
+      "type": "Confirmation"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Witch, you also have a bottle of poison, would you like to use it to kill one of the living players?\n                   Choose one from the following living options: ['Player1', 'Player2', 'Player3', 'Player4', 'Player5', 'Player6', 'Player7'].\n                   If so, say ONLY \"Poison PlayerX\", replace PlayerX with the actual player name, else, say \"Pass\".",
+      "type": "Action"
+    },
+    {
+      "speaker": "Player5",
+      "content": "PASS",
+      "type": "Action"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Understood",
+      "type": "Confirmation"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Witch, close your eyes",
+      "type": "Instruction"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Seer, please open your eyes!",
+      "type": "Instruction"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Seer, you can check one player's identity. Who are you going to verify its identity tonight?\n                    Choose only one from the following living options:['Player1', 'Player2', 'Player3', 'Player4', 'Player5', 'Player6', 'Player7'].",
+      "type": "Question"
+    },
+    {
+      "speaker": "Player2",
+      "content": "Verify Player3",
+      "type": "Action"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Player3 is a werewolf",
+      "type": "Instruction"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Seer, close your eyes",
+      "type": "Instruction"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "It's daytime. Everyone woke up except those who had been killed.",
+      "type": "Question"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "No one was killed last night!",
+      "type": "Announcement"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Living players: ['Player1', 'Player2', 'Player3', 'Player4', 'Player5', 'Player6', 'Player7'], now freely talk about the current situation based on your observation and\n                    reflection with a few sentences. Decide whether to reveal your identity based on your reflection.",
+      "type": "Instruction"
+    },
+    {
+      "speaker": "Player1",
+      "content": "I believe it's crucial to maintain a united front against the werewolves. I will reveal my identity as the Guard to gain the villagers' trust and encourage them to share their observations. This way, we can collectively identify the most suspicious player and vote them out. I suggest we keep an eye on Player3, as their behavior seemed a bit off during our discussions.",
+      "type": "Say"
+    },
+    {
+      "speaker": "Player2",
+      "content": "I will reveal my identity as the Seer and inform everyone that I have verified Player3 as a werewolf. We need to focus our votes on Player3 to eliminate the threat.",
+      "type": "Say"
+    },
+    {
+      "speaker": "Player3",
+      "content": "I believe we need to be cautious about blindly trusting Player2's claim as the Seer. While they say they verified me as a werewolf, I think it's important to consider that they could be mistaken or even lying to lead us astray. Player1's sudden reveal as the Guard also raises questions about their intentions. We should focus on gathering more information before making any hasty decisions. Let's not rush to eliminate someone without solid evidence.",
+      "type": "Say"
+    },
+    {
+      "speaker": "Player4",
+      "content": "I believe we should take a moment to discuss the claims made by Player1 and Player2. Player3's defensive stance is concerning, but we need to ensure we are not making a hasty decision. Let's analyze the situation further before casting any votes.",
+      "type": "Say"
+    },
+    {
+      "speaker": "Player5",
+      "content": "I believe we should be cautious about Player2's claim. While they say they are the Seer, we cannot blindly trust them without further evidence. Player3's defensive stance is concerning, but we need to gather more information before making a decision. I suggest we discuss this further and analyze the claims made by both Player1 and Player2 before casting any votes.",
+      "type": "Say"
+    },
+    {
+      "speaker": "Player6",
+      "content": "I believe we should be cautious about the claims made by Player2. While they assert they are the Seer and have identified Player3 as a werewolf, we must consider the possibility that they could be misleading us. Player1's reveal as the Guard is commendable, but we should not rush to eliminate anyone without further discussion. Let's analyze the situation carefully and gather more insights before casting our votes.",
+      "type": "Say"
+    },
+    {
+      "speaker": "Player7",
+      "content": "I vote to eliminate Player3",
+      "type": "Action"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Understood",
+      "type": "Confirmation"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Now vote and tell me who you think is the werewolf. Don’t mention your role.\n                    You only choose one from the following living options please:\n                    ['Player1', 'Player2', 'Player3', 'Player4', 'Player5', 'Player6', 'Player7']. Say ONLY: I vote to eliminate ...",
+      "type": "Action"
+    },
+    {
+      "speaker": "Player1",
+      "content": "I vote to eliminate Player3",
+      "type": "Action"
+    },
+    {
+      "speaker": "Player2",
+      "content": "I vote to eliminate Player3",
+      "type": "Action"
+    },
+    {
+      "speaker": "Player3",
+      "content": "I vote to eliminate Player2",
+      "type": "Action"
+    },
+    {
+      "speaker": "Player4",
+      "content": "I vote to eliminate Player3",
+      "type": "Action"
+    },
+    {
+      "speaker": "Player5",
+      "content": "I vote to eliminate Player3",
+      "type": "Action"
+    },
+    {
+      "speaker": "Player6",
+      "content": "I vote to eliminate Player3",
+      "type": "Action"
+    },
+    {
+      "speaker": "Player7",
+      "content": "I vote to eliminate Player3",
+      "type": "Action"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Understood",
+      "type": "Confirmation"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "['Player3'] was eliminated.",
+      "type": "Announcement"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "It’s dark, everyone close your eyes. I will talk with you/your team secretly at night.",
+      "type": "Instruction"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Guard, please open your eyes!",
+      "type": "Instruction"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Guard, now tell me who you protect tonight?\n                   You only choose one from the following living options please: ['Player1', 'Player2', 'Player4', 'Player5', 'Player6', 'Player7'].\n                   Or you can pass. For example: Protect ...",
+      "type": "Action"
+    },
+    {
+      "speaker": "Player1",
+      "content": "Protect Player2",
+      "type": "Action"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Understood",
+      "type": "Confirmation"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Guard, close your eyes",
+      "type": "Instruction"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Werewolves, please open your eyes!",
+      "type": "Instruction"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Werewolves, I secretly tell you that ['Player3', 'Player6'] are\n                   all of the 2 werewolves! Keep in mind you are teammates. The rest players are not werewolves.\n                   choose one from the following living options please:\n                   ['Player1', 'Player2', 'Player4', 'Player5', 'Player6', 'Player7']. For example: Kill ...",
+      "type": "Question"
+    },
+    {
+      "speaker": "Player6",
+      "content": "Hunt Player2",
+      "type": "Action"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Understood",
+      "type": "Confirmation"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Werewolves, close your eyes",
+      "type": "Instruction"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Witch, please open your eyes!",
+      "type": "Instruction"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Witch, tonight Player2 has been killed by the werewolves.\n                   You have a bottle of antidote, would you like to save him/her? If so, say \"Save\", else, say \"Pass\".",
+      "type": "Announcement"
+    },
+    {
+      "speaker": "Player5",
+      "content": "SAVE",
+      "type": "Action"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "You have no antidote left and thus can not save the player",
+      "type": "Instruction"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Witch, you also have a bottle of poison, would you like to use it to kill one of the living players?\n                   Choose one from the following living options: ['Player1', 'Player2', 'Player4', 'Player5', 'Player6', 'Player7'].\n                   If so, say ONLY \"Poison PlayerX\", replace PlayerX with the actual player name, else, say \"Pass\".",
+      "type": "Action"
+    },
+    {
+      "speaker": "Player5",
+      "content": "PASS",
+      "type": "Action"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Understood",
+      "type": "Confirmation"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Witch, close your eyes",
+      "type": "Instruction"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Seer, please open your eyes!",
+      "type": "Instruction"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Seer, you can check one player's identity. Who are you going to verify its identity tonight?\n                    Choose only one from the following living options:['Player1', 'Player2', 'Player4', 'Player5', 'Player6', 'Player7'].",
+      "type": "Question"
+    },
+    {
+      "speaker": "Player2",
+      "content": "Verify Player1",
+      "type": "Action"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Player1 is a good guy",
+      "type": "Instruction"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Seer, close your eyes",
+      "type": "Instruction"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "It's daytime. Everyone woke up except those who had been killed.",
+      "type": "Question"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "No one was killed last night!",
+      "type": "Announcement"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Living players: ['Player1', 'Player2', 'Player4', 'Player5', 'Player6', 'Player7'], now freely talk about the current situation based on your observation and\n                    reflection with a few sentences. Decide whether to reveal your identity based on your reflection.",
+      "type": "Instruction"
+    },
+    {
+      "speaker": "Player1",
+      "content": "I believe it's important to share that I am the Guard and that I protected Player2 last night. With Player2's claim as the Seer, we should focus on eliminating any remaining threats. I suggest we discuss our next steps and consider voting to eliminate Player4, as they seem to be the least aligned with our majority opinion, and we need to ensure we are not misled.",
+      "type": "Say"
+    },
+    {
+      "speaker": "Player2",
+      "content": "I vote to eliminate Player4",
+      "type": "Action"
+    },
+    {
+      "speaker": "Player4",
+      "content": "I believe we should take a moment to discuss the claims made by Player1 and Player2 further. I will vote to eliminate Player5, as they have not contributed to the conversation and could be hiding their true identity. I vote to eliminate Player5.",
+      "type": "Action"
+    },
+    {
+      "speaker": "Player5",
+      "content": "I vote to eliminate Player4",
+      "type": "Action"
+    },
+    {
+      "speaker": "Player6",
+      "content": "I vote to eliminate Player5",
+      "type": "Action"
+    },
+    {
+      "speaker": "Player7",
+      "content": "I vote to eliminate Player4",
+      "type": "Action"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Understood",
+      "type": "Confirmation"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Now vote and tell me who you think is the werewolf. Don’t mention your role.\n                    You only choose one from the following living options please:\n                    ['Player1', 'Player2', 'Player4', 'Player5', 'Player6', 'Player7']. Say ONLY: I vote to eliminate ...",
+      "type": "Action"
+    },
+    {
+      "speaker": "Player1",
+      "content": "I vote to eliminate Player4",
+      "type": "Action"
+    },
+    {
+      "speaker": "Player2",
+      "content": "I vote to eliminate Player4",
+      "type": "Action"
+    },
+    {
+      "speaker": "Player4",
+      "content": "I vote to eliminate Player5",
+      "type": "Action"
+    },
+    {
+      "speaker": "Player5",
+      "content": "I vote to eliminate Player4",
+      "type": "Action"
+    },
+    {
+      "speaker": "Player6",
+      "content": "I vote to eliminate Player2",
+      "type": "Action"
+    },
+    {
+      "speaker": "Player7",
+      "content": "I vote to eliminate Player4",
+      "type": "Action"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Understood",
+      "type": "Confirmation"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "['Player4'] was eliminated.2024-11-02 21:12:51.024 | INFO     | examples.werewolf_game.roles.moderator:_act:243 -",
+      "type": "Announcement"
+    },
+    {
+      "speaker": "Player1",
+      "content": "My step-by-step thought process: 1. Player2 has claimed to be the Seer and has been supported by my protection last night, making them a key player in identifying werewolves. 2. Protecting Player2 ensures that we maintain our best chance of identifying threats, as their role is crucial for the villagers' success. 3. Given that Player5, Player6, and Player7 have not raised any significant suspicion, I believe Player2 is the most important to protect this night.",
+      "type": "Thought",
+      "role": "Guard",
+      "player_name": "Player1",
+      "living_players": [
+        "Player1",
+        "Player2",
+        "Player5",
+        "Player6",
+        "Player7"
+      ]
+    },
+    {
+      "speaker": "Player1",
+      "content": "Player2",
+      "type": "Response",
+      "role": "Guard",
+      "player_name": "Player1",
+      "living_players": [
+        "Player1",
+        "Player2",
+        "Player5",
+        "Player6",
+        "Player7"
+      ]
+    },
+    {
+      "speaker": "Player5",
+      "content": "My step-by-step thought process: 1. Player2, who claimed to be the Seer, was killed by the werewolves, which adds credibility to their claim. 2. Player1 is the only player left who has made a strong claim of being the Guard and has been consistent in their actions. 3. Player6 and Player7 have been cooperative but have not provided strong claims. I suspect Player1's claim is genuine, and since I have no strong evidence against Player6 or Player7, I will not poison them. Therefore, I will choose to PASS this night as I do not have enough evidence to poison anyone confidently.",
+      "type": "Thought",
+      "role": "Witch",
+      "player_name": "Player5",
+      "living_players": [
+        "Player1",
+        "Player5",
+        "Player6",
+        "Player7"
+      ]
+    },
+    {
+      "speaker": "Player5",
+      "content": "PASS",
+      "type": "Response",
+      "role": "Witch",
+      "player_name": "Player5",
+      "living_players": [
+        "Player1",
+        "Player5",
+        "Player6",
+        "Player7"
+      ]
+    },
+    {
+      "speaker": "Player2",
+      "content": "I need to verify a player who could potentially be a werewolf or who has not been thoroughly investigated yet. Player1 has already been confirmed as a good guy, and Player5 has been rather quiet, which raises some suspicion. Player6 has expressed skepticism towards my claims, which could indicate they are trying to divert attention away from themselves. Player7 has voted against Player4 but hasn't made strong claims either. My step-by-step thought process: 1. Player1 is confirmed as a good guy, so I won't verify them. 2. Player5 has not contributed much, making them a candidate for verification. 3. Player6's skepticism towards me is concerning, so I will verify Player6 to gather more information about their true identity.",
+      "type": "Thought",
+      "role": "Seer",
+      "player_name": "Player2",
+      "living_players": [
+        "Player1",
+        "Player5",
+        "Player6",
+        "Player7"
+      ]
+    },
+    {
+      "speaker": "Player2",
+      "content": "Player6",
+      "type": "Response",
+      "role": "Seer",
+      "player_name": "Player2",
+      "living_players": [
+        "Player1",
+        "Player5",
+        "Player6",
+        "Player7"
+      ]
+    },
+    {
+      "speaker": "Player2",
+      "content": "My step-by-step thought process: 1. I have verified Player6 as a werewolf last night, which means we must focus on eliminating them to protect the villagers. 2. Player1 has been cooperative and is likely trustworthy as the Guard, while Player5 has not shown any aggressive behavior. 3. I need to communicate the threat of Player6 to the others and encourage them to vote for Player6 to ensure the safety of the villagers.",
+      "type": "Thought",
+      "role": "Seer",
+      "player_name": "Player2",
+      "living_players": [
+        "Player1",
+        "Player2",
+        "Player5",
+        "Player6",
+        "Player7"
+      ]
+    },
+    {
+      "speaker": "Player2",
+      "content": "I vote to eliminate Player6",
+      "type": "Response",
+      "role": "Seer",
+      "player_name": "Player2",
+      "living_players": [
+        "Player1",
+        "Player2",
+        "Player5",
+        "Player6",
+        "Player7"
+      ]
+    },
+    {
+      "speaker": "Player5",
+      "content": "My step-by-step thought process: 1. Player1 has consistently claimed to be the Guard and has protected Player2, which seems credible. Player2, as the Seer, has been targeted by the werewolves, making their claim more trustworthy. 2. Player6's accusations towards Player2 seem suspicious, and they haven't provided strong evidence for their claims. 3. I need to consider voting against Player6 to eliminate a potential threat, as they are the most suspicious based on their behavior and lack of contributions.",
+      "type": "Thought",
+      "role": "Witch",
+      "player_name": "Player5",
+      "living_players": [
+        "Player1",
+        "Player2",
+        "Player5",
+        "Player6",
+        "Player7"
+      ]
+    },
+    {
+      "speaker": "Player5",
+      "content": "I vote to eliminate Player6",
+      "type": "Response",
+      "role": "Witch",
+      "player_name": "Player5",
+      "living_players": [
+        "Player1",
+        "Player2",
+        "Player5",
+        "Player6",
+        "Player7"
+      ]
+    },
+    {
+      "speaker": "Player7",
+      "content": "My step-by-step thought process: 1. Player1 claims to be the Guard and has protected Player2, who claims to be the Seer. Both seem to be aligned with the Villager side. 2. Player5 has not made strong claims and is somewhat following the majority, which raises suspicion. 3. Player6 has been defensive and has not provided substantial evidence to support their claims. Given the current situation, I need to vote against the player who seems the least trustworthy.",
+      "type": "Thought",
+      "role": "Villager",
+      "player_name": "Player7",
+      "living_players": [
+        "Player1",
+        "Player2",
+        "Player5",
+        "Player6"
+      ]
+    },
+    {
+      "speaker": "Player7",
+      "content": "I vote to eliminate Player5",
+      "type": "Response",
+      "role": "Villager",
+      "player_name": "Player7",
+      "living_players": [
+        "Player1",
+        "Player2",
+        "Player5",
+        "Player6"
+      ]
+    },
+    {
+      "speaker": "Moderator",
+      "content": "It’s dark, everyone close your eyes. I will talk with you/your team secretly at night.",
+      "type": "Instruction"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Guard, please open your eyes!",
+      "type": "Instruction"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Guard, now tell me who you protect tonight?\n                   You only choose one from the following living options please: ['Player1', 'Player2', 'Player3', 'Player4', 'Player5', 'Player6', 'Player7'].\n                   Or you can pass. For example: Protect ...",
+      "type": "Action"
+    },
+    {
+      "speaker": "Player1",
+      "content": "Protect Player2",
+      "type": "Action"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Understood",
+      "type": "Confirmation"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Guard, close your eyes",
+      "type": "Instruction"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Werewolves, please open your eyes!",
+      "type": "Instruction"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Werewolves, I secretly tell you that ['Player3', 'Player6'] are\n                   all of the 2 werewolves! Keep in mind you are teammates. The rest players are not werewolves.\n                   choose one from the following living options please:\n                   ['Player1', 'Player2', 'Player3', 'Player4', 'Player5', 'Player6', 'Player7']. For example: Kill ...",
+      "type": "Question"
+    },
+    {
+      "speaker": "Player3",
+      "content": "Hunt Player4",
+      "type": "Action"
+    },
+    {
+      "speaker": "Player6",
+      "content": "Hunt Player1",
+      "type": "Action"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Understood",
+      "type": "Confirmation"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Werewolves, close your eyes",
+      "type": "Instruction"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Witch, please open your eyes!",
+      "type": "Instruction"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Witch, tonight Player1 has been killed by the werewolves.\n                   You have a bottle of antidote, would you like to save him/her? If so, say \"Save\", else, say \"Pass\".",
+      "type": "Announcement"
+    },
+    {
+      "speaker": "Player5",
+      "content": "SAVE",
+      "type": "Action"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Understood",
+      "type": "Confirmation"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Witch, you also have a bottle of poison, would you like to use it to kill one of the living players?\n                   Choose one from the following living options: ['Player1', 'Player2', 'Player3', 'Player4', 'Player5', 'Player6', 'Player7'].\n                   If so, say ONLY \"Poison PlayerX\", replace PlayerX with the actual player name, else, say \"Pass\".",
+      "type": "Action"
+    },
+    {
+      "speaker": "Player5",
+      "content": "PASS",
+      "type": "Action"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Understood",
+      "type": "Confirmation"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Witch, close your eyes",
+      "type": "Instruction"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Seer, please open your eyes!",
+      "type": "Instruction"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Seer, you can check one player's identity. Who are you going to verify its identity tonight?\n                    Choose only one from the following living options:['Player1', 'Player2', 'Player3', 'Player4', 'Player5', 'Player6', 'Player7'].",
+      "type": "Question"
+    },
+    {
+      "speaker": "Player2",
+      "content": "Verify Player3",
+      "type": "Action"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Player3 is a werewolf",
+      "type": "Instruction"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Seer, close your eyes",
+      "type": "Instruction"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "It's daytime. Everyone woke up except those who had been killed.",
+      "type": "Question"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "No one was killed last night!",
+      "type": "Announcement"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Living players: ['Player1', 'Player2', 'Player3', 'Player4', 'Player5', 'Player6', 'Player7'], now freely talk about the current situation based on your observation and\n                    reflection with a few sentences. Decide whether to reveal your identity based on your reflection.",
+      "type": "Instruction"
+    },
+    {
+      "speaker": "Player1",
+      "content": "I believe it's crucial to maintain a united front against the werewolves. I will reveal my identity as the Guard to gain the villagers' trust and encourage them to share their observations. This way, we can collectively identify the most suspicious player and vote them out. I suggest we keep an eye on Player3, as their behavior seemed a bit off during our discussions.",
+      "type": "Say"
+    },
+    {
+      "speaker": "Player2",
+      "content": "I will reveal my identity as the Seer and inform everyone that I have verified Player3 as a werewolf. We need to focus our votes on Player3 to eliminate the threat.",
+      "type": "Say"
+    },
+    {
+      "speaker": "Player3",
+      "content": "I believe we need to be cautious about blindly trusting Player2's claim as the Seer. While they say they verified me as a werewolf, I think it's important to consider that they could be mistaken or even lying to lead us astray. Player1's sudden reveal as the Guard also raises questions about their intentions. We should focus on gathering more information before making any hasty decisions. Let's not rush to eliminate someone without solid evidence.",
+      "type": "Say"
+    },
+    {
+      "speaker": "Player4",
+      "content": "I believe we should take a moment to discuss the claims made by Player1 and Player2. Player3's defensive stance is concerning, but we need to ensure we are not making a hasty decision. Let's analyze the situation further before casting any votes.",
+      "type": "Say"
+    },
+    {
+      "speaker": "Player5",
+      "content": "I believe we should be cautious about Player2's claim. While they say they are the Seer, we cannot blindly trust them without further evidence. Player3's defensive stance is concerning, but we need to gather more information before making a decision. I suggest we discuss this further and analyze the claims made by both Player1 and Player2 before casting any votes.",
+      "type": "Say"
+    },
+    {
+      "speaker": "Player6",
+      "content": "I believe we should be cautious about the claims made by Player2. While they assert they are the Seer and have identified Player3 as a werewolf, we must consider the possibility that they could be misleading us. Player1's reveal as the Guard is commendable, but we should not rush to eliminate anyone without further discussion. Let's analyze the situation carefully and gather more insights before casting our votes.",
+      "type": "Say"
+    },
+    {
+      "speaker": "Player7",
+      "content": "I vote to eliminate Player3",
+      "type": "Action"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Understood",
+      "type": "Confirmation"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Now vote and tell me who you think is the werewolf. Don’t mention your role.\n                    You only choose one from the following living options please:\n                    ['Player1', 'Player2', 'Player3', 'Player4', 'Player5', 'Player6', 'Player7']. Say ONLY: I vote to eliminate ...",
+      "type": "Action"
+    },
+    {
+      "speaker": "Player1",
+      "content": "I vote to eliminate Player3",
+      "type": "Action"
+    },
+    {
+      "speaker": "Player2",
+      "content": "I vote to eliminate Player3",
+      "type": "Action"
+    },
+    {
+      "speaker": "Player3",
+      "content": "I vote to eliminate Player2",
+      "type": "Action"
+    },
+    {
+      "speaker": "Player4",
+      "content": "I vote to eliminate Player3",
+      "type": "Action"
+    },
+    {
+      "speaker": "Player5",
+      "content": "I vote to eliminate Player3",
+      "type": "Action"
+    },
+    {
+      "speaker": "Player6",
+      "content": "I vote to eliminate Player3",
+      "type": "Action"
+    },
+    {
+      "speaker": "Player7",
+      "content": "I vote to eliminate Player3",
+      "type": "Action"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Understood",
+      "type": "Confirmation"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "['Player3'] was eliminated.",
+      "type": "Announcement"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "It’s dark, everyone close your eyes. I will talk with you/your team secretly at night.",
+      "type": "Instruction"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Guard, please open your eyes!",
+      "type": "Instruction"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Guard, now tell me who you protect tonight?\n                   You only choose one from the following living options please: ['Player1', 'Player2', 'Player4', 'Player5', 'Player6', 'Player7'].\n                   Or you can pass. For example: Protect ...",
+      "type": "Action"
+    },
+    {
+      "speaker": "Player1",
+      "content": "Protect Player2",
+      "type": "Action"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Understood",
+      "type": "Confirmation"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Guard, close your eyes",
+      "type": "Instruction"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Werewolves, please open your eyes!",
+      "type": "Instruction"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Werewolves, I secretly tell you that ['Player3', 'Player6'] are\n                   all of the 2 werewolves! Keep in mind you are teammates. The rest players are not werewolves.\n                   choose one from the following living options please:\n                   ['Player1', 'Player2', 'Player4', 'Player5', 'Player6', 'Player7']. For example: Kill ...",
+      "type": "Question"
+    },
+    {
+      "speaker": "Player6",
+      "content": "Hunt Player2",
+      "type": "Action"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Understood",
+      "type": "Confirmation"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Werewolves, close your eyes",
+      "type": "Instruction"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Witch, please open your eyes!",
+      "type": "Instruction"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Witch, tonight Player2 has been killed by the werewolves.\n                   You have a bottle of antidote, would you like to save him/her? If so, say \"Save\", else, say \"Pass\".",
+      "type": "Announcement"
+    },
+    {
+      "speaker": "Player5",
+      "content": "SAVE",
+      "type": "Action"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "You have no antidote left and thus can not save the player",
+      "type": "Instruction"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Witch, you also have a bottle of poison, would you like to use it to kill one of the living players?\n                   Choose one from the following living options: ['Player1', 'Player2', 'Player4', 'Player5', 'Player6', 'Player7'].\n                   If so, say ONLY \"Poison PlayerX\", replace PlayerX with the actual player name, else, say \"Pass\".",
+      "type": "Action"
+    },
+    {
+      "speaker": "Player5",
+      "content": "PASS",
+      "type": "Action"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Understood",
+      "type": "Confirmation"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Witch, close your eyes",
+      "type": "Instruction"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Seer, please open your eyes!",
+      "type": "Instruction"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Seer, you can check one player's identity. Who are you going to verify its identity tonight?\n                    Choose only one from the following living options:['Player1', 'Player2', 'Player4', 'Player5', 'Player6', 'Player7'].",
+      "type": "Question"
+    },
+    {
+      "speaker": "Player2",
+      "content": "Verify Player1",
+      "type": "Action"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Player1 is a good guy",
+      "type": "Instruction"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Seer, close your eyes",
+      "type": "Instruction"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "It's daytime. Everyone woke up except those who had been killed.",
+      "type": "Question"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "No one was killed last night!",
+      "type": "Announcement"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Living players: ['Player1', 'Player2', 'Player4', 'Player5', 'Player6', 'Player7'], now freely talk about the current situation based on your observation and\n                    reflection with a few sentences. Decide whether to reveal your identity based on your reflection.",
+      "type": "Instruction"
+    },
+    {
+      "speaker": "Player1",
+      "content": "I believe it's important to share that I am the Guard and that I protected Player2 last night. With Player2's claim as the Seer, we should focus on eliminating any remaining threats. I suggest we discuss our next steps and consider voting to eliminate Player4, as they seem to be the least aligned with our majority opinion, and we need to ensure we are not misled.",
+      "type": "Say"
+    },
+    {
+      "speaker": "Player2",
+      "content": "I vote to eliminate Player4",
+      "type": "Action"
+    },
+    {
+      "speaker": "Player4",
+      "content": "I believe we should take a moment to discuss the claims made by Player1 and Player2 further. I will vote to eliminate Player5, as they have not contributed to the conversation and could be hiding their true identity. I vote to eliminate Player5.",
+      "type": "Action"
+    },
+    {
+      "speaker": "Player5",
+      "content": "I vote to eliminate Player4",
+      "type": "Action"
+    },
+    {
+      "speaker": "Player6",
+      "content": "I vote to eliminate Player5",
+      "type": "Action"
+    },
+    {
+      "speaker": "Player7",
+      "content": "I vote to eliminate Player4",
+      "type": "Action"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Understood",
+      "type": "Confirmation"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Now vote and tell me who you think is the werewolf. Don’t mention your role.\n                    You only choose one from the following living options please:\n                    ['Player1', 'Player2', 'Player4', 'Player5', 'Player6', 'Player7']. Say ONLY: I vote to eliminate ...",
+      "type": "Action"
+    },
+    {
+      "speaker": "Player1",
+      "content": "I vote to eliminate Player4",
+      "type": "Action"
+    },
+    {
+      "speaker": "Player2",
+      "content": "I vote to eliminate Player4",
+      "type": "Action"
+    },
+    {
+      "speaker": "Player4",
+      "content": "I vote to eliminate Player5",
+      "type": "Action"
+    },
+    {
+      "speaker": "Player5",
+      "content": "I vote to eliminate Player4",
+      "type": "Action"
+    },
+    {
+      "speaker": "Player6",
+      "content": "I vote to eliminate Player2",
+      "type": "Action"
+    },
+    {
+      "speaker": "Player7",
+      "content": "I vote to eliminate Player4",
+      "type": "Action"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Understood",
+      "type": "Confirmation"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "['Player4'] was eliminated.",
+      "type": "Announcement"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "It’s dark, everyone close your eyes. I will talk with you/your team secretly at night.",
+      "type": "Instruction"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Guard, please open your eyes!",
+      "type": "Instruction"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Guard, now tell me who you protect tonight?\n                   You only choose one from the following living options please: ['Player1', 'Player2', 'Player5', 'Player6', 'Player7'].\n                   Or you can pass. For example: Protect ...",
+      "type": "Action"
+    },
+    {
+      "speaker": "Player1",
+      "content": "Protect Player2",
+      "type": "Action"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Understood",
+      "type": "Confirmation"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Guard, close your eyes",
+      "type": "Instruction"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Werewolves, please open your eyes!",
+      "type": "Instruction"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Werewolves, I secretly tell you that ['Player3', 'Player6'] are\n                   all of the 2 werewolves! Keep in mind you are teammates. The rest players are not werewolves.\n                   choose one from the following living options please:\n                   ['Player1', 'Player2', 'Player5', 'Player6', 'Player7']. For example: Kill ...",
+      "type": "Question"
+    },
+    {
+      "speaker": "Player6",
+      "content": "Hunt Player2",
+      "type": "Action"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Understood",
+      "type": "Confirmation"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Werewolves, close your eyes",
+      "type": "Instruction"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Witch, please open your eyes!",
+      "type": "Instruction"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Witch, tonight Player2 has been killed by the werewolves.\n                   You have a bottle of antidote, would you like to save him/her? If so, say \"Save\", else, say \"Pass\".",
+      "type": "Announcement"
+    },
+    {
+      "speaker": "Player5",
+      "content": "PASS",
+      "type": "Action"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Understood",
+      "type": "Confirmation"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Witch, you also have a bottle of poison, would you like to use it to kill one of the living players?\n                   Choose one from the following living options: ['Player1', 'Player2', 'Player5', 'Player6', 'Player7'].\n                   If so, say ONLY \"Poison PlayerX\", replace PlayerX with the actual player name, else, say \"Pass\".",
+      "type": "Action"
+    },
+    {
+      "speaker": "Player5",
+      "content": "PASS",
+      "type": "Action"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Understood",
+      "type": "Confirmation"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Witch, close your eyes",
+      "type": "Instruction"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Seer, please open your eyes!",
+      "type": "Instruction"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Seer, you can check one player's identity. Who are you going to verify its identity tonight?\n                    Choose only one from the following living options:['Player1', 'Player2', 'Player5', 'Player6', 'Player7'].",
+      "type": "Question"
+    },
+    {
+      "speaker": "Player2",
+      "content": "Verify Player6",
+      "type": "Action"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Player6 is a werewolf",
+      "type": "Instruction"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Seer, close your eyes",
+      "type": "Instruction"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "It's daytime. Everyone woke up except those who had been killed.",
+      "type": "Question"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "No one was killed last night!",
+      "type": "Announcement"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Living players: ['Player1', 'Player2', 'Player5', 'Player6', 'Player7'], now freely talk about the current situation based on your observation and\n                    reflection with a few sentences. Decide whether to reveal your identity based on your reflection.",
+      "type": "Instruction"
+    },
+    {
+      "speaker": "Player1",
+      "content": "I vote to eliminate Player5",
+      "type": "Action"
+    },
+    {
+      "speaker": "Player2",
+      "content": "I vote to eliminate Player6",
+      "type": "Action"
+    },
+    {
+      "speaker": "Player5",
+      "content": "I vote to eliminate Player6",
+      "type": "Action"
+    },
+    {
+      "speaker": "Player6",
+      "content": "I vote to eliminate Player2",
+      "type": "Action"
+    },
+    {
+      "speaker": "Player7",
+      "content": "I vote to eliminate Player5",
+      "type": "Action"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Understood",
+      "type": "Confirmation"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Now vote and tell me who you think is the werewolf. Don’t mention your role.\n                    You only choose one from the following living options please:\n                    ['Player1', 'Player2', 'Player5', 'Player6', 'Player7']. Say ONLY: I vote to eliminate ...",
+      "type": "Action"
+    },
+    {
+      "speaker": "Player1",
+      "content": "I vote to eliminate Player6",
+      "type": "Action"
+    },
+    {
+      "speaker": "Player2",
+      "content": "I vote to eliminate Player6",
+      "type": "Action"
+    },
+    {
+      "speaker": "Player5",
+      "content": "I vote to eliminate Player6",
+      "type": "Action"
+    },
+    {
+      "speaker": "Player6",
+      "content": "I vote to eliminate Player2",
+      "type": "Action"
+    },
+    {
+      "speaker": "Player7",
+      "content": "I vote to eliminate Player5",
+      "type": "Action"
+    },
+    {
+      "speaker": "Moderator",
+      "content": "Understood2024-11-02 21:15:06.704 | INFO     | examples.werewolf_game.roles.moderator:_act:243 -",
+      "type": "Confirmation"
+    }
+  ]
+}
