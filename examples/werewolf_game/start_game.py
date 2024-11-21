@@ -4,7 +4,13 @@ import fire
 import random
 import ipdb
 
-from examples.werewolf_game.info1 import SYSTEM_PROMPT
+from examples.werewolf_game.info1 import SYSTEM_PROMPT as SYSTEM_PROMPT1
+from examples.werewolf_game.info2 import SYSTEM_PROMPT as SYSTEM_PROMPT2
+from examples.werewolf_game.info3 import SYSTEM_PROMPT as SYSTEM_PROMPT3
+from examples.werewolf_game.info4 import SYSTEM_PROMPT as SYSTEM_PROMPT4
+from examples.werewolf_game.info5 import SYSTEM_PROMPT as SYSTEM_PROMPT5
+from examples.werewolf_game.info6 import SYSTEM_PROMPT as SYSTEM_PROMPT6
+from examples.werewolf_game.info_final import SYSTEM_PROMPT as SYSTEM_PROMPT_FINAL
 from time import sleep
 from examples.werewolf_game.interjection import INTERJECTION
 from metagpt.logs import logger
@@ -104,10 +110,20 @@ async def start_game(
         logger.info(f"=== Completed Game Round {i + 1} ===\n")
 
 
-def main(n_games: int = 1, n_player: int = 5,
+def main(n_games: int = 1, n_player: int = 5, group: int = 1,
          investment: float = 20.0, n_round: int = 500, shuffle : bool = True, add_human: bool = False,
          use_reflection: bool = True, use_experience: bool = False, use_memory_selection: bool = False,
          new_experience_version: str = ""):
+
+    system_prompt_dict = {1: SYSTEM_PROMPT1, 2: SYSTEM_PROMPT2, 3: SYSTEM_PROMPT3, 4: SYSTEM_PROMPT4,
+                          5: SYSTEM_PROMPT5, 6: SYSTEM_PROMPT6, 7: SYSTEM_PROMPT_FINAL}
+    global SYSTEM_PROMPT
+    SYSTEM_PROMPT = system_prompt_dict[group]
+
+    # print(len(SYSTEM_PROMPT))
+    # for i in range(len(SYSTEM_PROMPT)):
+    #     print(f"'{SYSTEM_PROMPT[i]['name']}'", end=',')
+    # ipdb.set_trace()
 
     asyncio.run(
         start_game(

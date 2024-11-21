@@ -100,16 +100,25 @@ class BasePlayer(Role):
 
                         {strategic_memories}
 
-                        Add make it sound real with:
-                        - "Wow!" "Sheesh!" "Oof!" "Yikes!"
-                        - "Bro" "Honey" "Fam"
-                        - "Oh my!" "Good God!" "Jesus Christ!"
-                        - "Meh" "Nah" "Ugh" "Ahem"
+                        Make it sound real with:
+                        - "Bruh" "Fam" "Mate" "Yo" "Homie" "Dude" "Sis" "G"
+                        - "Sheesh!" "Oof!" "Yikes!" "Phew!" "Ugh" "Yoo" "Dayum"
+                        - "Like..." "You know..." "I mean..." "Real talk..." "For real..."
+                        - "Tbh" "Ngl" "Fr fr" "No cap" "Deadass" "Lowkey" "Highkey"
+                        - "Damn" "Fuck" "Holy shit" "Broski" "My guy" "Chief"
+                        - "Bet" "Facts" "Based" "Wild" "Lit" "Fire" "Based af"
+                        - "On god" "Fr tho" "Ong" "Respectfully" "Idk man" "Tfw"
+                        - "Bussin" "Sus" "Cap" "Hits different" "Slaps" "Goes hard"
+                        - "Ain't no way" "Straight up" "Legit" "Fair enough" "Say less"
+                        - "Not gonna lie" "Real shit" "No shot" "Zero shot" "Hot take"
 
                         Important rules:
                         - Stand out! Never copy what others just said
+                        - Always start your message differently from others
                         - Don't repeat your own previous takes
                         - Find fresh ways to express similar ideas
+                        - If someone starts with "Wow", you pick different interjection
+                        - Mix up your sentence structures and openings
                         - Keep your unique voice while staying original
 
                         Previous chat:
