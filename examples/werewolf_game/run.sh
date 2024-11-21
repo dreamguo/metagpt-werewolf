@@ -1,0 +1,1 @@
+python start_game.py --n_player 11 --n_games 1 2>&1 | tee logs/output_1_11_Group1.txt

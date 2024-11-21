@@ -96,7 +96,29 @@ class BasePlayer(Role):
         # Add strategic context to memories if it exists
         if strategic_memories:
             strategic_context = "\n".join(strategic_memories)
-            memories = f"speak like:\n{strategic_context}\n\nGame History:\n{memories}"
+            memories = f"""Drop the formal talk. Use natural expressions. Your speech should be like this:
+
+                        {strategic_memories}
+
+                        Add make it sound real with:
+                        - "Wow!" "Sheesh!" "Oof!" "Yikes!"
+                        - "Bro" "Honey" "Fam"
+                        - "Oh my!" "Good God!" "Jesus Christ!"
+                        - "Meh" "Nah" "Ugh" "Ahem"
+
+                        Important rules:
+                        - Stand out! Never copy what others just said
+                        - Don't repeat your own previous takes
+                        - Find fresh ways to express similar ideas
+                        - Keep your unique voice while staying original
+
+                        Previous chat:
+                        {memories}
+
+                        Keep it real - no robot talk, no "I think/believe", just keep your special vibe fresh and unique!"""
+            # memories = f"Don't say 'I think' or 'I believe', speak informally.\n \
+                # Speak like the following {len(strategic_memories)} sentences: \n{strategic_context} \
+                # \n\nGame History:\n{memories}"
 
         reflection = await Reflect().run(
             profile=self.profile, name=self.name, context=memories, latest_instruction=latest_instruction
