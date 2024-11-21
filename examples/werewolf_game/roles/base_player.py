@@ -40,6 +40,19 @@ class BasePlayer(Role):
         self.use_memory_selection = use_memory_selection
 
         self.experiences = []
+        self.initial_memories = []
+
+    def add_initial_memories(self, memories: list[str]):
+        """Add initial strategic memories to the role."""
+        self.initial_memories.extend(memories)
+        for memory_text in memories:
+            msg = Message(content=memory_text,
+                            role=self.profile,
+                            sent_from=self.name,
+                            cause_by=type(self),
+                            send_to=set(),
+                            restricted_to=set())
+            self._rc.memory.add(msg)
 
     async def _observe(self) -> int:
         if self.status == 1:
@@ -73,6 +86,17 @@ class BasePlayer(Role):
         memories = self.get_all_memories()
         latest_instruction = self.get_latest_instruction()
         # print("*" * 10, f"{self._setting}'s current memories: {memories}", "*" * 10)
+        
+        # Get initial memories as strategic context
+        strategic_memories = [
+            memory for memory in self.initial_memories
+            if memory  # Filter out empty strings
+        ]
+
+        # Add strategic context to memories if it exists
+        if strategic_memories:
+            strategic_context = "\n".join(strategic_memories)
+            memories = f"speak like:\n{strategic_context}\n\nGame History:\n{memories}"
 
         reflection = await Reflect().run(
             profile=self.profile, name=self.name, context=memories, latest_instruction=latest_instruction
